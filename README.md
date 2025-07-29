@@ -4,3 +4,5 @@ Once downloaded , running the main.py , assuming Discord is installed on the sys
 The program then will copy the chat logs to a new directory called "chat_only" for easy access.
 
 the program will format the extracted chat and then make use of ollama and its models to classify the chats as "predetory" , "suspecious" or "normal" conversations.
+
+Extracted.bat exists only because running chromeCacheView via python caused errors
