@@ -2,18 +2,18 @@ import random
 import time
 import sys
 import requests
-url_chat="https://discord.com/api/v9/channels/1396802712481566720/messages"
+url_chat="https://discord.com/api/v9/channels/<code>/messages"
 
-JaneDoe="MTM4MDQ4ODEyNDE1MjY4MDQ1OA.GHkKrU.lTUR52p7hPAKmBTDPlmWCIWsb6N-bCeBXQCXdI"
-JohnDoe="MTM4MDQ4MDcyMDc1NzA2MzcxMQ.Gr89Am.5IamAibUDLjQxp_tchxAQGN1BW6wWR6spPeGD0"
+JaneDoe="<code>"
+JohnDoe="<code>"
 payload= {
     "content":"e"
 }
 Jane_doe_header={
-    "Authorization":"MTM4MDQ4ODEyNDE1MjY4MDQ1OA.GHkKrU.lTUR52p7hPAKmBTDPlmWCIWsb6N-bCeBXQCXdI",
+    "Authorization":"<code>",
 }
 John_doe_header={
-    "Authorization":"MTM4MDQ4MDcyMDc1NzA2MzcxMQ.Gr89Am.5IamAibUDLjQxp_tchxAQGN1BW6wWR6spPeGD0",
+    "Authorization":"<code>",
 }
 
 # A conversation between John and Jane Doe on a Monday morning in July.
