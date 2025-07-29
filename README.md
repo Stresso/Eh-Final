@@ -6,3 +6,4 @@ The program then will copy the chat logs to a new directory called "chat_only" f
 the program will format the extracted chat and then make use of ollama and its models to classify the chats as "predetory" , "suspecious" or "normal" conversations.
 
 Extracted.bat exists only because running chromeCacheView via python caused errors
+ChromeCacheView.exe is a freeware available on the Nirsoft website https://www.nirsoft.net/utils/chrome_cache_view.html
