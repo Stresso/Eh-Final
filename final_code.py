@@ -76,8 +76,7 @@ def ollama_model(raw_file):
         with open(sys.path[0]+"/Response/output2.txt","w",encoding="utf-8") as f:
             f.write(output)
         model=[
-        "cogito:8b",              
-        #"phi4-reasoning:latest",  
+        "cogito:8b",               
         "starling-lm:latest",     
         "neural-chat:latest",     
         "mistral:latest",
